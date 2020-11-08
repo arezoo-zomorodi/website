@@ -355,10 +355,6 @@ ul.menu li a:hover span {
   padding: 0 15px;
 }
 
-
-
-
-
 /* Services */
 
 .Services {
@@ -422,41 +418,6 @@ ul.menu li a:hover span {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* delivery */
 
 #delivery {
@@ -505,9 +466,6 @@ ul.menu li a:hover span {
 #about .who-we-are-inner::after {
   display: none;
 }
-
-
-
 
 /* contact */
 
@@ -597,27 +555,60 @@ ul.menu li a:hover span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* triangles */
+.our-story-main,
+.our-story-top,
+.who-we-are-inner {
+  position: relative;
+}
+.our-story-main::after,
+.our-story-top::after,
+.who-we-are-inner::after,
+#gift::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: white;
+  transform: translate(-50%, 0);
+  z-index: 50;
+}
+.our-story-main::after {
+  border-top-color: var(--light-gray);
+}
+#gift::after {
+  border-top-color: #d8d8d8;
+}
+/* triangles */
+.our-story-main,
+.our-story-top,
+.who-we-are-inner {
+  position: relative;
+}
+.our-story-main::after,
+.our-story-top::after,
+.who-we-are-inner::after,
+#gift::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: white;
+  transform: translate(-50%, 0);
+  z-index: 50;
+}
+.our-story-main::after {
+  border-top-color: var(--light-gray);
+}
+#gift::after {
+  border-top-color: #d8d8d8;
+}
 /* triangles */
 .our-story-main,
 .our-story-top,
